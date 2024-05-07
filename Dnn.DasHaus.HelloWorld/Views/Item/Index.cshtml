@@ -1,136 +1,136 @@
 ﻿@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage<IEnumerable<DasHaus.Dnn.Dnn.DasHaus.HelloWorld.Models.Item>>
 
-@using System.Text.RegularExpressions
-@using DotNetNuke.Web.Mvc.Helpers
+    @using System.Text.RegularExpressions
+    @using DotNetNuke.Web.Mvc.Helpers
 
 
-
-<style>
-    /* Style for radio button list */
-    .category-list label {
-        display: inline-block;
-        margin-right: 10px;
-        padding: 8px 12px;
-        background-color: #f0f0f0;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    .category-list input[type="radio"] {
-        display: none;
-    }
-
-        .category-list input[type="radio"]:checked + label {
-            background-color: #007bff;
-            color: white;
+    <style>
+        /* Style for radio button list */
+        .category-list label {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 8px 12px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
         }
-    /* New style for button container */
-    .button-container {
-        display: flex;
-        justify-content: center; /* Horizontally center */
-        align-items: flex-start; /* Vertically align to the start (top) */
-        margin-bottom: 20px; /* Add some margin at the bottom */
-    }
 
-        .button-container button {
-            margin-right: 10px; /* Add some space between buttons */
+        .category-list input[type="radio"] {
+            display: none;
         }
-    .content-container {
-        display: flex;
-        justify-content: center; /* Horizontally center */
-    }
-    .inner-table {
-        border-collapse: collapse;
-    }
 
-        .inner-table th,
-        .inner-table td {
-            
-            padding: 10px; /* Increased padding for more space */
+            .category-list input[type="radio"]:checked + label {
+                background-color: #007bff;
+                color: white;
+            }
+        /* New style for button container */
+        .button-container {
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: flex-start; /* Vertically align to the start (top) */
+            margin-bottom: 20px; /* Add some margin at the bottom */
         }
-</style>
 
-<h2>Termék összehasonlítás</h2>
+            .button-container button {
+                margin-right: 10px; /* Add some space between buttons */
+            }
+
+        .content-container {
+            display: flex;
+            justify-content: center; /* Horizontally center */
+        }
+
+        .inner-table {
+            border-collapse: collapse;
+        }
+
+            .inner-table th,
+            .inner-table td {
+                padding: 10px; /* Increased padding for more space */
+            }
+    </style>
+
+    <h2>Termék összehasonlítás</h2>
 
 
-<div id="Items-@Dnn.ModuleContext.ModuleId">
+    <div id="Items-@Dnn.ModuleContext.ModuleId">
 
-    <div class="button-container">
-        <button>Hűtőszekrények</button>
-        <button>Mosógépek</button>
-        <button>Sütők</button>
-        <button>Grillek</button>
-        <button>Porszívók</button>
+        <div class="button-container">
+            <button>Hűtőszekrények</button>
+            <button>Mosógépek</button>
+            <button>Sütők</button>
+            <button>Grillek</button>
+            <button>Porszívók</button>
+        </div>
+
+        <div class="category-list" style="margin-bottom: 10px;">
+            @foreach (var item in Model)
+            {
+                <label>
+                    <input type="radio" name="category" value="@item.ItemName"> @item.ItemName
+                </label>
+            }
+        </div>
+
+        <table class="content-container" style="border-collapse: collapse; border: 0px;">
+            <tr>
+                <td style="border: 1px solid black; padding: 5px;">
+                    <select>
+                        @foreach (var item in Model)
+                        {
+                            <option>@item.ItemName</option>
+                        }
+                    </select>
+                </td>
+                <td class="" style="border: 1px solid black; padding: 5px;">
+                    <!-- New table for properties -->
+                    <table class="inner-table">
+                        <tr>
+
+                            <td>0</td>
+                            <th>Ár</th>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+
+                            <td>0</td>
+                            <th>Fogyasztás</th>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <th>Súly</th>
+                            <td>0</td>
+
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <th>Magasság</th>
+                            <td>0</td>
+
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <th>Szélesség</th>
+                            <td>0</td>
+
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <th>Hosszúság</th>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="border: 1px solid black; padding: 5px;">
+                    <select>
+                        @foreach (var item in Model)
+                        {
+                            <option>@item.ItemName</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+        </table>
     </div>
-
-    <div class="category-list" style="margin-bottom: 10px;">
-        @foreach (var item in Model)
-        {
-            <label>
-                <input type="radio" name="category" value="@item.ItemName"> @item.ItemName
-            </label>
-        }
-    </div>
-
-    <table class="content-container" style="border-collapse: collapse; border: 0px;">
-        <tr>
-            <td style="border: 1px solid black; padding: 5px;">
-                <select>
-                    @foreach (var item in Model)
-                    {
-                        <option>@item.ItemName</option>
-                    }
-                </select>
-            </td>
-            <td class="" style="border: 1px solid black; padding: 5px;">
-                <!-- New table for properties -->
-                <table class="inner-table">
-                    <tr>
-                        
-                        <td>0</td>
-                        <th>Ár</th>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        
-                        <td>0</td>
-                        <th>Fogyasztás</th>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <th>Súly</th>
-                        <td>0</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <th>Magasság</th>
-                        <td>0</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <th>Szélesség</th>
-                        <td>0</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <th>Hosszúság</th>
-                        <td>0</td>
-                    </tr>
-                </table>
-            </td>
-            <td style="border: 1px solid black; padding: 5px;">
-                <select>
-                    @foreach (var item in Model)
-                    {
-                        <option>@item.ItemName</option>
-                    }
-                </select>
-            </td>
-        </tr>
-    </table>
-</div>
