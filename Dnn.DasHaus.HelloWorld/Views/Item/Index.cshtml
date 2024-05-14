@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Comparison</title>
     <style>
+            body, th, td, select, option {
+        color: orange;
+    }
         .content-container {
             display: flex;
             justify-content: center; /* Horizontally center */
@@ -34,7 +37,7 @@
         }
 
             .category-list input[type="radio"]:checked + label {
-                background-color: #007bff;
+                background-color: #0029A1;
                 color: white;
             }
 
@@ -49,18 +52,20 @@
             /* Updated styles for category buttons */
             .button-container button {
                 margin-right: 10px;
-                border: 4px solid #007bff; /* Deep blue border */
+                border: 4px solid #0029A1; /* Deep blue border */
                 border-radius: 10px; /* Rounded corners */
                 background-color: transparent; /* Transparent background */
-                color: #007bff; /* Text color */
-                padding: 8px 12px; /* Padding */
+                color: #0029A1; /* Text color */
+                padding: 12px 20px; /* Increased padding for larger size */
                 cursor: pointer; /* Cursor style */
-                transition: background-color 0.3s ease; /* Smooth transition */
+                transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+                font-family: 'Arial', sans-serif; /* Robust and modern font */
+                font-size: 18px; /* Larger font size */
             }
 
                 /* Hover effect for category buttons */
                 .button-container button:hover {
-                    background-color: #007bff; /* Dark blue background on hover */
+                    background-color: #0029A1; /* Dark blue background on hover */
                     color: white; /* White text on hover */
                 }
 
@@ -68,6 +73,9 @@
                 .button-container button:active {
                     transform: translateY(1px); /* Push button down slightly when clicked */
                 }
+        .row-border {
+            border-bottom: 2px solid #0029A1; /* Add border to the bottom of each row */
+        }
     </style>
 </head>
 <body>
@@ -76,7 +84,6 @@
 
     <div id="Items-@Dnn.ModuleContext.ModuleId">
 
-        <!-- Button container for different product categories -->
         <div class="button-container">
             <div class="button-container">
                 <button class="category-button" data-category="C001">Hűtőszekrények</button>
@@ -84,63 +91,53 @@
                 <button class="category-button" data-category="C003">Fülhallgató</button>
                 <button class="category-button" data-category="C004">Sütő</button>
             </div>
-            <!-- Add buttons for other categories -->
+
         </div>
 
-        <!-- Radio button list for item categories -->
-        <div class="category-list" style="margin-bottom: 10px;">
-            <!-- Add radio buttons if needed -->
-        </div>
-
-        <!-- Main content table -->
         <table class="content-container" style="border-collapse: collapse; border: 5px;">
             <tr>
-                <!-- First column for item selection -->
-                <td style="border: 5px solid #007bff; border-radius: 50%; padding: 5px;">
+                <td>
                     <select></select>
                 </td>
-
-                <!-- Second column for displaying item properties -->
-                <td style="border: 5px solid #007bff; border-radius: 50%; padding: 5px;">
-                    <!-- Nested table for properties -->
+                <td style="padding: 5px;">
                     <div class="content-container">
-                        <table class="inner-table">
-                            <tr>
-                                <td>0</td>
-                                <th>Ár</th>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>0</td>
-                                <th>Súly</th>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>0</td>
-                                <th>Magasság</th>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>0</td>
-                                <th>Szélesség</th>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>0</td>
-                                <th>Hosszúság</th>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>0</td>
-                                <th>Értékelés</th>
-                                <td>0</td>
-                            </tr>
-                        </table>
+                        <div style="border: 5px solid #0029A1; border-radius: 10px;">
+                            <table class="inner-table">
+                                <tr class="row-border">
+                                    <td>0</td>
+                                    <th>Ár(Ft)</th>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="row-border">
+                                    <td>0</td>
+                                    <th>Súly</th>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="row-border">
+                                    <td>0</td>
+                                    <th>Magasság</th>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="row-border">
+                                    <td>0</td>
+                                    <th>Szélesség</th>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="row-border">
+                                    <td>0</td>
+                                    <th>Hosszúság</th>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="row-border">
+                                    <td>0</td>
+                                    <th>Értékelés</th>
+                                    <td>0</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </td>
-
-                <!-- Third column for another item selection -->
-                <td style="border: 5px solid #007bff; border-radius: 50%; padding: 5px;">
+                <td>
                     <select></select>
                 </td>
             </tr>
@@ -150,187 +147,28 @@
     <script>
         // Define your product data with attributes including category ID and separate dimensions
         var products = {
-            'Samsung Smart Hűtőszekrény': {
-                categoryId: 'C001',
-                price: 1200,
-                weight: '70kg',
-                length: '60 cm',
-                width: '70 cm',
-                height: '180 cm',
-                rating: 4
-            },
-            'Huawei LP500 Hűtőszekrény': {
-                categoryId: 'C001',
-                price: 1000,
-                weight: '65kg',
-                length: '65 cm',
-                width: '75 cm',
-                height: '175 cm',
-                rating: 3
-            },
-            'LG Hűtőszekrény': {
-                categoryId: 'C001',
-                price: 1100,
-                weight: '72kg',
-                length: '58 cm',
-                width: '72 cm',
-                height: '185 cm',
-                rating: 5
-            },
-            'Samsung Hűtőszekrény': {
-                categoryId: 'C001',
-                price: 1300,
-                weight: '75kg',
-                length: '62 cm',
-                width: '78 cm',
-                height: '180 cm',
-                rating: 2
-            },
-            'Sony Hűtőszekrény': {
-                categoryId: 'C001',
-                price: 1250,
-                weight: '68kg',
-                length: '61 cm',
-                width: '76 cm',
-                height: '178 cm',
-                rating: 4
-            },
-            'Samsung TV': {
-                categoryId: 'C002',
-                price: 800,
-                weight: '15kg',
-                length: '100 cm',
-                width: '10 cm',
-                height: '70 cm',
-                rating: 4
-            },
-            'Sony TV': {
-                categoryId: 'C002',
-                price: 850,
-                weight: '13kg',
-                length: '95 cm',
-                width: '9 cm',
-                height: '65 cm',
-                rating: 3
-            },
-            'LG TV': {
-                categoryId: 'C002',
-                price: 900,
-                weight: '14kg',
-                length: '110 cm',
-                width: '11 cm',
-                height: '75 cm',
-                rating: 5
-            },
-            'Samsung Smart TV': {
-                categoryId: 'C002',
-                price: 1000,
-                weight: '16kg',
-                length: '105 cm',
-                width: '12 cm',
-                height: '80 cm',
-                rating: 2
-            },
-            'Philipps TV': {
-                categoryId: 'C002',
-                price: 950,
-                weight: '12kg',
-                length: '98 cm',
-                width: '11 cm',
-                height: '72 cm',
-                rating: 4
-            },
-            'Samsung Fülhallgató': {
-                categoryId: 'C003',
-                price: 150,
-                weight: '0.3kg',
-                length: '5 cm',
-                width: '5 cm',
-                height: '2 cm',
-                rating: 3
-            },
-            'Sony Fülhallgató': {
-                categoryId: 'C003',
-                price: 200,
-                weight: '0.4kg',
-                length: '6 cm',
-                width: '6 cm',
-                height: '3 cm',
-                rating: 4
-            },
-            'Beats Fülhallgató': {
-                categoryId: 'C003',
-                price: 180,
-                weight: '0.35kg',
-                length: '5.5 cm',
-                width: '5.5 cm',
-                height: '2.5 cm',
-                rating: 5
-            },
-            'Bang and Olufsen Fülhallgató': {
-                categoryId: 'C003',
-                price: 250,
-                weight: '0.45kg',
-                length: '6.5 cm',
-                width: '6.5 cm',
-                height: '3.5 cm',
-                rating: 4
-            },
-            'Philipps Fülhallgató': {
-                categoryId: 'C003',
-                price: 220,
-                weight: '0.4kg',
-                length: '6 cm',
-                width: '6 cm',
-                height: '3 cm',
-                rating: 3
-            },
-            'Samsung Sütő': {
-                categoryId: 'C004',
-                price: 600,
-                weight: '25kg',
-                length: '70 cm',
-                width: '60 cm',
-                height: '50 cm',
-                rating: 4
-            },
-            'Electrolux Sütő': {
-                categoryId: 'C004',
-                price: 650,
-                weight: '26kg',
-                length: '72 cm',
-                width: '62 cm',
-                height: '52 cm',
-                rating: 5
-            },
-            'Candy Fidc Sütő': {
-                categoryId: 'C004',
-                price: 700,
-                weight: '27kg',
-                length: '74 cm',
-                width: '64 cm',
-                height: '54 cm',
-                rating: 3
-            },
-            'Bosch Sütő': {
-                categoryId: 'C004',
-                price: 750,
-                weight: '28kg',
-                length: '76 cm',
-                width: '66 cm',
-                height: '56 cm',
-                rating: 4
-            },
-            'Philipps Sütő': {
-                categoryId: 'C004',
-                price: 800,
-                weight: '29kg',
-                length: '78 cm',
-                width: '68 cm',
-                height: '58 cm',
-                rating: 2
-            },
+            'Samsung Smart Hűtőszekrény': { categoryId: 'C001', price: 360000, weight: '70kg', length: '60 cm', width: '70 cm', height: '180 cm', rating: 4 },
+            'Huawei LP500 Hűtőszekrény': { categoryId: 'C001', price: 300000, weight: '65kg', length: '65 cm', width: '75 cm', height: '175 cm', rating: 3 },
+            'LG Hűtőszekrény': { categoryId: 'C001', price: 330000, weight: '72kg', length: '58 cm', width: '72 cm', height: '185 cm', rating: 5 },
+            'Samsung Hűtőszekrény': { categoryId: 'C001', price: 390000, weight: '75kg', length: '62 cm', width: '78 cm', height: '180 cm', rating: 2 },
+            'Sony Hűtőszekrény': { categoryId: 'C001', price: 375000, weight: '68kg', length: '61 cm', width: '76 cm', height: '178 cm', rating: 4 },
+            'Samsung TV': { categoryId: 'C002', price: 240000, weight: '15kg', length: '100 cm', width: '10 cm', height: '70 cm', rating: 4 },
+            'Sony TV': { categoryId: 'C002', price: 255000, weight: '13kg', length: '95 cm', width: '9 cm', height: '65 cm', rating: 3 },
+            'LG TV': { categoryId: 'C002', price: 270000, weight: '14kg', length: '110 cm', width: '11 cm', height: '75 cm', rating: 5 },
+            'Samsung Smart TV': { categoryId: 'C002', price: 300000, weight: '16kg', length: '105 cm', width: '12 cm', height: '80 cm', rating: 2 },
+            'Philipps TV': { categoryId: 'C002', price: 285000, weight: '12kg', length: '98 cm', width: '11 cm', height: '72 cm', rating: 4 },
+            'Samsung Fülhallgató': { categoryId: 'C003', price: 45000, weight: '0.3kg', length: '5 cm', width: '5 cm', height: '2 cm', rating: 3 },
+            'Sony Fülhallgató': { categoryId: 'C003', price: 60000, weight: '0.4kg', length: '6 cm', width: '6 cm', height: '3 cm', rating: 4 },
+            'Beats Fülhallgató': { categoryId: 'C003', price: 54000, weight: '0.35kg', length: '5.5 cm', width: '5.5 cm', height: '2.5 cm', rating: 5 },
+            'Bang and Olufsen Fülhallgató': { categoryId: 'C003', price: 75000, weight: '0.45kg', length: '6.5 cm', width: '6.5 cm', height: '3.5 cm', rating: 4 },
+            'Philipps Fülhallgató': { categoryId: 'C003', price: 66000, weight: '0.4kg', length: '6 cm', width: '6 cm', height: '3 cm', rating: 3 },
+            'Samsung Sütő': { categoryId: 'C004', price: 180000, weight: '25kg', length: '70 cm', width: '60 cm', height: '50 cm', rating: 4 },
+            'Electrolux Sütő': { categoryId: 'C004', price: 195000, weight: '26kg', length: '72 cm', width: '62 cm', height: '52 cm', rating: 5 },
+            'Candy Fidc Sütő': { categoryId: 'C004', price: 210000, weight: '27kg', length: '74 cm', width: '64 cm', height: '54 cm', rating: 3 },
+            'Bosch Sütő': { categoryId: 'C004', price: 225000, weight: '28kg', length: '76 cm', width: '66 cm', height: '56 cm', rating: 4 },
+            'Philipps Sütő': { categoryId: 'C004', price: 240000, weight: '29kg', length: '78 cm', width: '68 cm', height: '58 cm', rating: 2 },
         };
+
 
         // Function to return attributes for a given product
         function getProductAttributes(productName) {
@@ -410,7 +248,7 @@
                         tableCells[4].textContent = productAttributes.height;
                         tableCells[6].textContent = productAttributes.width;
                         tableCells[8].textContent = productAttributes.length;
-                        tableCells[10].textContent = productAttributes.rating;
+                        tableCells[10].textContent = productAttributes.rating+"*";
                         break;
                     case 1:
                         // If the current select is the second one, update the third column
@@ -419,7 +257,7 @@
                         tableCells[5].textContent = productAttributes.height;
                         tableCells[7].textContent = productAttributes.width;
                         tableCells[9].textContent = productAttributes.length;
-                        tableCells[11].textContent = productAttributes.rating;
+                        tableCells[11].textContent = productAttributes.rating+"*";
                         break;
                 }
             });

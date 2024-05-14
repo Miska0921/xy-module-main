@@ -308,6 +308,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Item\fridge.png" />
+    <Content Include="Views\Item\headset.png" />
+    <Content Include="Views\Item\oven.png" />
+    <Content Include="Views\Item\tv.png" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
