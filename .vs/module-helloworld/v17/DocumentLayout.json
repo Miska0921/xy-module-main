@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\dnn.dashaus.helloworld.dnn||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\dnn.dashaus.helloworld.dnn||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\models\\dnncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\models\\dnncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,26 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\components\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\components\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\dnn.dashaus.helloworld.dnn||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\dnn.dashaus.helloworld.dnn||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\dnn.dashaus.helloworld\\models\\dnncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4130D773-4930-4C21-9BCF-0C5244F585D0}|Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.csproj|solutionrelative:dnn.dashaus.helloworld\\models\\dnncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Dnn.DasHaus.HelloWorld.dnn",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.dnn",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Dnn.DasHaus.HelloWorld.dnn",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "SettingsController.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Controllers\\SettingsController.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Controllers\\SettingsController.cs",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Models\\Item.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Models\\Products.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Models\\Products.cs",
@@ -110,20 +110,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Models\\Categories.cs",
               "ToolTip": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Models\\Categories.cs",
               "RelativeToolTip": "Dnn.DasHaus.HelloWorld\\Models\\Categories.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:29:56.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T12:29:56.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "DnnContext.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Models\\DnnContext.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Models\\DnnContext.cs",
@@ -141,14 +140,14 @@
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Views\\Item\\Index.cshtml",
               "ToolTip": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Views\\Item\\Index.cshtml",
               "RelativeToolTip": "Dnn.DasHaus.HelloWorld\\Views\\Item\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAD4AAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-30T14:03:09.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Controllers\\ItemController.cs",
@@ -160,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ItemManager.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Components\\ItemManager.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Components\\ItemManager.cs",
@@ -172,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "FeatureController.cs",
               "DocumentMoniker": "C:\\Users\\vancs\\Desktop\\rf_devdnn\\DesktopModules\\XYProject\\\u00DAj mappa\\Dnn.DasHaus.HelloWorld\\Components\\FeatureController.cs",
               "RelativeDocumentMoniker": "Dnn.DasHaus.HelloWorld\\Components\\FeatureController.cs",
